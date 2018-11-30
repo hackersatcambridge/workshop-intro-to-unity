@@ -453,3 +453,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 13.8
+  _jumpInitialVelocity: {x: 0, y: 10, z: 0}
