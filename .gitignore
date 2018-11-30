@@ -1,0 +1,5 @@
+/UnityWorkshopGame/Library
+/UnityWorkshopGame/Temp
+/UnityWorkshopGame/.vs
+*.csproj
+*.sln
