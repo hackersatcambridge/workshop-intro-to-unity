@@ -37,7 +37,16 @@ public class Player : MonoBehaviour
                 break;
             case JumpState.Jumping:
                 transform.position += _velocity * Time.deltaTime;
-                // 
+                _velocity += Physics.gravity * Time.deltaTime;
+                
+                if(transform.position.y <= 1f)
+                {
+                    var pos = transform.position;
+                    pos.y = 1f;
+                    transform.position = pos;
+
+                    _jumpState = JumpState.NotJumping;
+                }
                 break;
         }
 	}
