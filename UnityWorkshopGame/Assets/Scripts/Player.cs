@@ -18,6 +18,11 @@ public class Player : MonoBehaviour
 
     void Update ()
     {
+        if(!GameLogic.Instance.PlayerAlive)
+        {
+            return;
+        }
+
         transform.position += _speed * Vector3.forward * Time.deltaTime;
 
         switch(_jumpState)
