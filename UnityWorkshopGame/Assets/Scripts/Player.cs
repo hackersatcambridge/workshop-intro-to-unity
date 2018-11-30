@@ -1,12 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Range(0f, 60f)]
+    public float _speed = 60f;
+
 	void Update ()
     {
-        var mytransform = GetComponent<Transform>();
-        mytransform.position += Vector3.forward;
+        transform.position += _speed * Vector3.forward * Time.deltaTime;
 	}
 }
