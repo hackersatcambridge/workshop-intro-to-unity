@@ -1,6 +1,3 @@
-[[This is template content]]
+The workshop content was improvised and built interactively with the attendees, and does not currently have a recording or detailed notes. If we record the workshop in the future we will update this repo with the video.
 
-This is the actual instructional workshop content.
-Do not put a title on this document, it will already have one on the website
-You can include images from the `images` folder like this:
-![Image Description](images/cat.png)
+In the meantime, the content from the workshop is pushed (with incremental commit history), along with a GameGig 2018 entry which took the basic mechanic implemented in the workshop and gamified it.
