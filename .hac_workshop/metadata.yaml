@@ -20,6 +20,10 @@ contributors:
      url: https://unity3d.com/learn/tutorials
    - text: Google - many many forum posts, blog posts, tutorials and more!
      url: www.google.com
+   - text: Unity Standard Assets
+     url: https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-32351
+   - text: TurboSquid - 3D assets
+     url: https://www.turbosquid.com/
 
 # (optional, uncomment to use) - Link to a video recording of the workshop
 # recording_link: URLhere
