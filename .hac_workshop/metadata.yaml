@@ -3,11 +3,12 @@
 # For an example of all the available fields please refer to:
 # https://github.com/hackersatcambridge/workshop-example/blob/master/info/metadata.yaml
 
-title: # Workshop Title Goes Here
+title: Intro To Unity
 
 # People who have directly contributed content to this workhsop
 contributors:
-  # - Firstname Lastname
+   - Huw Bowles
+   - Tom Read-Cutting
 
 # (optional, uncomment to use) - Non-contributors we would like to thank for helping to inspire, develop or facilitate this workshop
 # thanks:
@@ -15,8 +16,10 @@ contributors:
 
 # (optional, uncomment to use) - Links that attendees may wish to read after the workshop
 # further_reading_links:
-#   - text: Titlehere
-#     url: URLhere
+   - text: Unity Tutorials
+     url: https://unity3d.com/learn/tutorials
+   - text: Google - many many forum posts, blog posts, tutorials and more!
+     url: www.google.com
 
 # (optional, uncomment to use) - Link to a video recording of the workshop
 # recording_link: URLhere
@@ -32,4 +35,4 @@ tags:
 
 # A license code by which the workshop content is released
 # Should be an 'identifier' from here: https://spdx.org/licenses/
-license: # License-ID
+license: MIT
