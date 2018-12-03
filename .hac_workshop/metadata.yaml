@@ -15,7 +15,7 @@ contributors:
 #   - Firstname Lastname
 
 # (optional, uncomment to use) - Links that attendees may wish to read after the workshop
-# further_reading_links:
+further_reading_links:
    - text: Unity Tutorials
      url: https://unity3d.com/learn/tutorials
    - text: Google - many many forum posts, blog posts, tutorials and more!
@@ -35,7 +35,8 @@ contributors:
 # A set of keywords associated with the workshop
 # These are intended for use in searching
 tags:
-  # - tagname
+   - unity
+   - games
 
 # A license code by which the workshop content is released
 # Should be an 'identifier' from here: https://spdx.org/licenses/
