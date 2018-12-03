@@ -1,5 +1,4 @@
-[[This is template content]]
+Make sure you have:
 
-This file should provide setup instructions for the workshop.
-Mention and software that needs to be installed and the versions
-Mention anything that needs to be downloaded or configured
+* Unity installed (no specific version requirement, latest is recommended).
+* During installation it is recommended to install Visual Studio (community edition). This is the default setup and supports quick attachment to Unity for debugging. Unity is usable with other editors such as vscode though.
